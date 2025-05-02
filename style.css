@@ -1,0 +1,86 @@
+/* Remove horizontal scroll globally */
+body {
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Navbar */
+  .b {
+    margin-right: 5px;
+  }
+  
+  .logo {
+    width: 114px;
+  }
+  
+  /* Search bar styling */
+  .input-div {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    max-width: 100%;
+    border-radius: 5px;
+    overflow: hidden;
+    transition: border 0.3s ease;
+  }
+  
+  
+  #border:hover{border:1px solid white;
+border-radius: 2px;}
+  .input-div:hover {
+    border: 2px solid rgb(255, 196, 0);
+    border-radius: 9px;
+  }
+  
+  #sel {
+    width: 52px;
+    height: 40px;
+    background-color: #e6e6e6;
+    border: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+  }
+  
+  .input-div input {
+    flex-grow: 1;
+    height: 40px;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    padding: 7px 10px;
+  }
+  
+  .search {
+    width: 45px;
+    height: 40px;
+    background-color: rgb(255, 208, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+  
+  /* Secondary navbar */
+  #menu {
+    display: flex;
+    align-items: center;
+  }
+  
+  .cart {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Responsive fixes */
+  @media (max-width: 500px) {
+    .input-div input {
+      width: 180px;
+    }
+  
+    .deliver {
+      margin-left: -40px;
+    }
+  }
+  

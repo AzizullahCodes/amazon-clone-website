@@ -187,7 +187,9 @@ margin-top: 40px;}
 color: black !important;}
 
 .carousel-2{margin-top: 40px;
-  height: 86vh;
+  height: 82vh;
   background-color: rgb(0, 174, 255);}
 @media(max-width:600px){.carousel-2{position: relative;
-top:1800px;}}
+top:1800px;}
+.image-image{width: 100px;
+height: 150px;}}

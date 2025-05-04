@@ -203,3 +203,50 @@ top:2160px;
 
 background-color: transparent;}
 .carousel-3{margin-top:-40px;}}
+/* =============customer-view==================== */
+.customer-view{background-color: white;
+margin-top: 40px;}
+
+.page{display: flex;
+justify-content: space-between;
+padding-top: 20px;}
+.first-anchor{text-decoration: none;
+color:#2162a1;
+font-size: 14px;
+font-weight: bold;}
+/* ======rating====== */
+.rating i{color:rgb(255, 102, 0);}
+/* ===========rating-span=========== */
+.rating-span{color:#2162a1;
+font-weight: bold;}
+/* =========rating=========== */
+.rating{margin-top: -14px;}
+/* =========rating-p-1========== */
+.rating-p-1{color:#565959;
+font-size: 12px;}
+/* =======p-span=========== */
+.p-span{background-color:rgb(255, 102, 0) ;
+color:white;
+padding:0 5px;
+font-weight: bold;}
+/* ========second-anchor========== */
+.second-anchor{color:#2162a1;
+font-size: 12px;
+font-weight: 700;
+text-decoration: none;}
+/* ========rating-p-2========= */
+.rating-p2{margin-top: -12px;}
+/* ============p-numbering============= */
+.p-numbering{font-size: 17px;
+margin-top: -15px;}
+/* ============p-span2============== */
+.p-span2{font-size: 12px;}
+/* =============p-date=========== */
+.p-date{margin-top: -19px;}
+/* ===========shipping========== */
+.shipping{font-size: 12px;
+margin-top: -14px;}
+
+/* =============media-query================ */
+@media(max-width:600px){.page{flex-direction: column;}
+.customer-view{padding:0 10px;}}

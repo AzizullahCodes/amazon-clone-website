@@ -3,6 +3,7 @@ body {
     overflow-x: hidden;
     margin: 0;
     padding: 0;
+    background-color: silver;
   }
   
   /* Navbar */
@@ -113,7 +114,7 @@ color:#0f1111;}
 .home .row{display: flex !important;} */
 /* home */
 
-.home{background-color: rgb(0, 174, 255);
+.home{
 margin-top: 20px;
 height: 800px;}
 .row{padding-top: 10px;
@@ -188,9 +189,9 @@ color: black !important;}
 
 .carousel-2{margin-top: 40px;
   height: 82vh;
-  background-color: rgb(0, 174, 255);}
+ }
 @media(max-width:600px){.carousel-2{position: relative;
-top:1830px;}
+top:2200px;}
 .image-image{width: 100px;
 height: 150px;}
 .carousel-2{height: 60vh;}
@@ -198,6 +199,7 @@ height: 150px;}
 padding-left: 30px;}
 .carousel-2-heading{padding-left: 17px;}
 .home-second{position: relative;
-top:1850px;
+top:2160px;
 
-background-color: transparent;}}
+background-color: transparent;}
+.carousel-3{margin-top:-40px;}}

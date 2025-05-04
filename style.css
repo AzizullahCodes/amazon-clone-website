@@ -193,4 +193,6 @@ color: black !important;}
 top:1830px;}
 .image-image{width: 100px;
 height: 150px;}
-.carousel-2{height: 60vh;}}
+.carousel-2{height: 60vh;}
+.carousel.item{padding-right:30px;
+padding-left: 30px;}}

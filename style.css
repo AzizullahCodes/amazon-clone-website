@@ -192,4 +192,5 @@ color: black !important;}
 @media(max-width:600px){.carousel-2{position: relative;
 top:1830px;}
 .image-image{width: 100px;
-height: 150px;}}
+height: 150px;}
+.carousel-2{height: 60vh;}}

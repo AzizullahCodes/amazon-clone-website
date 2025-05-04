@@ -205,7 +205,11 @@ background-color: transparent;}
 .carousel-3{margin-top:-40px;}}
 /* =============customer-view==================== */
 .customer-view{background-color: white;
-margin-top: 40px;}
+margin-top: 40px;
+border:1px solid black;
+margin-left: 10px;
+margin-right: 10px;
+}
 
 .page{display: flex;
 justify-content: space-between;
@@ -246,7 +250,61 @@ margin-top: -15px;}
 /* ===========shipping========== */
 .shipping{font-size: 12px;
 margin-top: -14px;}
+/* ------hr------------- */
+.hr{margin-bottom: ;}
+
+.custom-btn{
+width: 170px;
+background-color: #ffd814;
+text-align: center;
+border-radius: 20px;}
+
+.custom-pp{font-size: 12px;
+margin-top: 10px;}
+#btn{display: flex;
+justify-content: center;
+margin-top: 10px;}
 
 /* =============media-query================ */
 @media(max-width:600px){.page{flex-direction: column;}
 .customer-view{padding:0 10px;}}
+
+
+/* ============================footer====================== */
+footer{background-color: #565959;}
+
+
+
+.footer-back{color:white;
+font-size: 13px;
+padding:15px 0;
+background-color: #565959;}
+
+footer .row{margin-top: 12px;
+background-color:#232f3e;
+color: white;
+padding-top:40px;
+padding-left: 80px;
+padding-right: 80px;
+padding-bottom: 40px;}
+
+
+
+footer .row ul li{font-size: 14px;
+color:#dddddd;
+list-style: none;
+}
+footer .row ul{display: flex;
+flex-direction: column;
+gap:10px;}
+
+.li-heading{font-size: 16px !important;
+color:#ffffff !important;
+font-weight: bold !important;
+}
+
+#hr{width: ;}
+
+@media(max-width:600px){ footer .row{padding-left: 20px;
+padding-right: 20px;
+gap:40px;}}

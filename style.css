@@ -286,7 +286,7 @@ color: white;
 padding-top:40px;
 padding-left: 80px;
 padding-right: 80px;
-padding-bottom: 40px;}
+padding-bottom: 20px;}
 
 
 
@@ -378,4 +378,8 @@ font-weight: bold;}
 .end ul{display: flex;
 gap:30px;}
 .end p{margin-top: -10px;}
-@media(max-width:576px){.end ul{flex-direction: column;}}
+
+.main{overflow-x: hidden;}
+@media(max-width:576px){.end ul{flex-direction: column;}
+.third-foot{padding-left: 10px;
+padding-right: 10px;}}
